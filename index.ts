@@ -11,7 +11,7 @@ async function main() {
   const text = 'Versão em texto do email';
   const html = `
       <h1 style="color: #333;">Olá!</h1>
-    `
+    `;
 
   const transporter = nodemailer.createTransport({
     host: process.env.SMTP_HOST,
